@@ -1,8 +1,5 @@
 package lesson4;
 
-import com.sun.org.apache.xerces.internal.dom.AbortException;
-import com.sun.tools.javac.code.Types;
-import com.sun.tools.javac.util.Abort;
 import lesson4.exception.CheckedException;
 import lesson4.exception.UncheckedException;
 
@@ -53,7 +50,7 @@ public class Main {
         } catch (CheckedException e) {
             //logging 1
             e.printStackTrace();
-        } catch (ArithmeticException | AbortException e) {
+        } catch (ArithmeticException | ArrayStoreException e) {
             //logic 2
             e.printStackTrace();
         }
