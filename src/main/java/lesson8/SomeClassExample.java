@@ -1,5 +1,5 @@
 package lesson8;
 
 public class SomeClassExample {
-  //some commit
+  //some commit 2
 }
