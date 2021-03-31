@@ -1,0 +1,70 @@
+мар. 31, 2021 8:21:35 PM lesson18.service.CustomerServiceImpl save
+INFO: Customer{id=0, name='null', surname='null', email='email777@example.com', age=0, password='password'}
+мар. 31, 2021 8:21:35 PM lesson18.dao.CustomerDaoImpl save
+INFO: Customer{id=0, name='null', surname='null', email='email777@example.com', age=0, password='password'}
+мар. 31, 2021 8:21:35 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version 5.4.29.Final
+мар. 31, 2021 8:21:36 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+мар. 31, 2021 8:21:36 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+мар. 31, 2021 8:21:36 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+мар. 31, 2021 8:21:36 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=postgres}
+мар. 31, 2021 8:21:36 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+мар. 31, 2021 8:21:36 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 1 (min=1)
+мар. 31, 2021 8:21:36 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+мар. 31, 2021 8:21:36 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3791f50e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+мар. 31, 2021 8:21:37 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+мар. 31, 2021 8:21:37 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+WARN: SQL Error: 0, SQLState: 23505
+мар. 31, 2021 8:21:37 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+ERROR: ERROR: duplicate key value violates unique constraint "uk_rfbvkrffamfql7cjmen8v976v"
+  Подробности: Key (email)=(email777@example.com) already exists.
+
+
+мар. 31, 2021 8:26:47 PM lesson18.service.CustomerServiceImpl save
+INFO: Customer{id=0, name='null', surname='null', email='email7778@example.com', age=0, password='password'}
+мар. 31, 2021 8:26:47 PM lesson18.dao.CustomerDaoImpl save
+INFO: Customer{id=0, name='null', surname='null', email='email7778@example.com', age=0, password='password'}
+мар. 31, 2021 8:26:47 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version 5.4.29.Final
+мар. 31, 2021 8:26:47 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+мар. 31, 2021 8:26:48 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+мар. 31, 2021 8:26:48 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+мар. 31, 2021 8:26:48 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=postgres}
+мар. 31, 2021 8:26:48 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+мар. 31, 2021 8:26:48 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 1 (min=1)
+мар. 31, 2021 8:26:48 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+мар. 31, 2021 8:26:48 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3791f50e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+мар. 31, 2021 8:26:48 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+мар. 31, 2021 8:26:48 PM lesson18.service.CustomerServiceImpl otherMethod
+INFO: information from otherMethod
+мар. 31, 2021 8:26:48 PM lesson18.service.CustomerServiceImpl otherMethod
+INFO: information from otherMethod
+мар. 31, 2021 8:26:48 PM lesson18.service.CustomerServiceImpl otherMethod
+INFO: information from otherMethod
+
+
+мар. 31, 2021 8:29:08 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+мар. 31, 2021 8:29:09 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+WARN: SQL Error: 0, SQLState: 23505
+мар. 31, 2021 8:29:09 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+ERROR: ERROR: duplicate key value violates unique constraint "uk_rfbvkrffamfql7cjmen8v976v"
+  Подробности: Key (email)=(email7778@example.com) already exists.
