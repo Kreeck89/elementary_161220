@@ -1,15 +1,12 @@
 package lesson21;
 
-import lesson19.service.ValidationService;
 import lesson21.funcrtionalInterface.BinaryOperator;
 import lesson21.funcrtionalInterface.ConsumerInterface;
 import lesson21.funcrtionalInterface.FunctionInterface;
 import lesson21.funcrtionalInterface.PredicateInterface;
 import lesson21.funcrtionalInterface.SupplierInterface;
-import lombok.var;
 
 import java.util.Random;
-import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
@@ -52,13 +49,9 @@ public class Main {
         SupplierInterface<Integer> supplierInterface = () -> new Random().nextInt(1000);
         System.out.println("supplierInterface.get(): " + supplierInterface.get());
 
-
         //BI_FUNCTION WITH THE SAME PARAMETERS = BINARY_OPERATOR:
         BinaryOperator<Integer> integerBinaryOperator = (int1, int2) -> int1 + int2;
         System.out.println("integerBinaryOperator.apply(555, 45): " + integerBinaryOperator.apply(555, 45));
-
-        ValidationService validationService = new ValidationService();
-        validationService = new ValidationService();
     }
 
     /**
